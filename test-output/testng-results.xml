@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13288" started-at="2019-07-19T21:54:24Z" finished-at="2019-07-19T21:54:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13288" started-at="2019-07-19T21:54:24Z" finished-at="2019-07-19T21:54:38Z">
+      <class name="tests.VerifyWebsiteURL">
+        <test-method status="PASS" signature="beforTestStart()[pri:0, instance:tests.VerifyWebsiteURL@548a9f61]" name="beforTestStart" is-config="true" duration-ms="13007" started-at="2019-07-19T17:54:24Z" finished-at="2019-07-19T17:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestStart -->
+        <test-method status="PASS" signature="verifyURL()[pri:0, instance:tests.VerifyWebsiteURL@548a9f61]" name="verifyURL" duration-ms="19" started-at="2019-07-19T17:54:37Z" finished-at="2019-07-19T17:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.VerifyWebsiteURL@548a9f61]" name="tearDown" is-config="true" duration-ms="251" started-at="2019-07-19T17:54:38Z" finished-at="2019-07-19T17:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=VerifyWebsiteURL.verifyURL()[pri:0, instance:tests.VerifyWebsiteURL@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyWebsiteURL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
