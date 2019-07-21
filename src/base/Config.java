@@ -21,9 +21,12 @@ public class Config extends WebDriverFunctions {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.saksfifthavenue.com/Entry.jsp");
+		
 		driver.manage().timeouts().pageLoadTimeout(5,TimeUnit.SECONDS);
 
 		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	@AfterMethod

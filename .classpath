@@ -30,5 +30,6 @@
 	<classpathentry kind="lib" path="C:/Users/mdjal/Documents/GitHub/SaksFifthAve/JARS/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mdjal/Documents/GitHub/SaksFifthAve/JARS/testng-6.9.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mdjal/Documents/GitHub/SaksFifthAve/JARS/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
