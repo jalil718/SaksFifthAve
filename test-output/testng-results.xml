@@ -1,11 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5" started-at="2019-07-20T06:14:19Z" finished-at="2019-07-20T06:14:19Z">
+  <suite name="SaksFifthAve" duration-ms="72337" started-at="2019-07-23T05:39:19Z" finished-at="2019-07-23T05:40:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5" started-at="2019-07-20T06:14:19Z" finished-at="2019-07-20T06:14:19Z">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="72337" started-at="2019-07-23T05:39:19Z" finished-at="2019-07-23T05:40:32Z">
+      <class name="tests.VerifyWebsiteURL">
+        <test-method status="PASS" signature="beforTestStart()[pri:0, instance:tests.VerifyWebsiteURL@64c64813]" name="beforTestStart" is-config="true" duration-ms="10845" started-at="2019-07-23T01:40:01Z" finished-at="2019-07-23T01:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestStart -->
+        <test-method status="PASS" signature="verifyURL()[pri:0, instance:tests.VerifyWebsiteURL@64c64813]" name="verifyURL" duration-ms="16" started-at="2019-07-23T01:40:12Z" finished-at="2019-07-23T01:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.VerifyWebsiteURL@64c64813]" name="tearDown" is-config="true" duration-ms="231" started-at="2019-07-23T01:40:12Z" finished-at="2019-07-23T01:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=VerifyWebsiteURL.verifyURL()[pri:0, instance:tests.VerifyWebsiteURL@64c64813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyWebsiteURL -->
+      <class name="tests.VerifyUserLandedOnTheRightPage">
+        <test-method status="PASS" signature="beforTestStart()[pri:0, instance:tests.VerifyUserLandedOnTheRightPage@f5f2bb7]" name="beforTestStart" is-config="true" duration-ms="9755" started-at="2019-07-23T01:40:12Z" finished-at="2019-07-23T01:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestStart -->
+        <test-method status="PASS" signature="verifyPage()[pri:0, instance:tests.VerifyUserLandedOnTheRightPage@f5f2bb7]" name="verifyPage" duration-ms="17" started-at="2019-07-23T01:40:22Z" finished-at="2019-07-23T01:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.VerifyUserLandedOnTheRightPage@f5f2bb7]" name="tearDown" is-config="true" duration-ms="197" started-at="2019-07-23T01:40:22Z" finished-at="2019-07-23T01:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPage status=SUCCESS method=VerifyUserLandedOnTheRightPage.verifyPage()[pri:0, instance:tests.VerifyUserLandedOnTheRightPage@f5f2bb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyUserLandedOnTheRightPage -->
+      <class name="tests.TotalPageImageCount">
+        <test-method status="PASS" signature="beforTestStart()[pri:0, instance:tests.TotalPageImageCount@73035e27]" name="beforTestStart" is-config="true" duration-ms="9322" started-at="2019-07-23T01:40:22Z" finished-at="2019-07-23T01:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestStart -->
+        <test-method status="PASS" signature="totalImageCount()[pri:0, instance:tests.TotalPageImageCount@73035e27]" name="totalImageCount" duration-ms="53" started-at="2019-07-23T01:40:31Z" finished-at="2019-07-23T01:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalImageCount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TotalPageImageCount@73035e27]" name="tearDown" is-config="true" duration-ms="227" started-at="2019-07-23T01:40:31Z" finished-at="2019-07-23T01:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=totalImageCount status=SUCCESS method=TotalPageImageCount.totalImageCount()[pri:0, instance:tests.TotalPageImageCount@73035e27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TotalPageImageCount -->
+      <class name="tests.CountTotalLinkInThePage">
+        <test-method status="PASS" signature="beforTestStart()[pri:0, instance:tests.CountTotalLinkInThePage@13b6d03]" name="beforTestStart" is-config="true" duration-ms="10791" started-at="2019-07-23T01:39:19Z" finished-at="2019-07-23T01:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestStart -->
+        <test-method status="PASS" signature="countTotalLink()[pri:0, instance:tests.CountTotalLinkInThePage@13b6d03]" name="countTotalLink" duration-ms="30575" started-at="2019-07-23T01:39:30Z" finished-at="2019-07-23T01:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTotalLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CountTotalLinkInThePage@13b6d03]" name="tearDown" is-config="true" duration-ms="297" started-at="2019-07-23T01:40:01Z" finished-at="2019-07-23T01:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countTotalLink status=SUCCESS method=CountTotalLinkInThePage.countTotalLink()[pri:0, instance:tests.CountTotalLinkInThePage@13b6d03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CountTotalLinkInThePage -->
+    </test> <!-- Test -->
+  </suite> <!-- SaksFifthAve -->
 </testng-results>

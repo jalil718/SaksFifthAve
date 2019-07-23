@@ -75,7 +75,7 @@
     <!-- run -->
     <target name="run" depends="compile">
         <testng classpath="${test.classpath}:${test.dest}" suitename="Expedia">	
-              	<xmlfileset dir="${ws.home}" includes="crossbrowserTest.xml"/>
+              	<xmlfileset dir="${ws.home}" includes="Regression.xml"/>
         	
    
      <!-- <xmlfileset dir="${ws.home}" includes="testngCh.xml"/>
